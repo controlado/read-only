@@ -1,12 +1,10 @@
-### `🗃️` [Read only!](https://github.com/controlado/read-only)
+# `🗃️` [Read only!](https://github.com/controlado/read-only)
 
-#
+### Deixa as configurações do League of Legends em modo somente leitura.
 
-### Deixa as configurações do League of Legends em modo somente leitura automaticamente.
+Ao trocar de conta, suas configurações também mudam caso não colocar os arquivos em modo somente leitura.
 
-Quando você troca de conta, suas configurações também mudam caso não colocar os arquivos em modo somente leitura.
-
-Essa é a utilidade do projeto, já que através do código, ele ativa e desativa todos os arquivos necessários de forma automatizada!
+Essa é a utilidade do projeto, que através do código, ele ativa esse modo e desativa automaticamente!
 
 #
 

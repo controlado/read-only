@@ -29,3 +29,11 @@ python -3.11 ./source/main.py
 ```
 
 </details>
+
+#
+
+### `📺` Preview!
+
+O processo de selecionar o LeagueClient só é necessário na primeira utilização.
+
+https://user-images.githubusercontent.com/71716568/206071420-9ab2b254-38e3-48bf-8d42-8000d300d0ee.mp4

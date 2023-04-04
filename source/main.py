@@ -72,7 +72,11 @@ class ReadOnly:
             self.league_config_path = self.__get_league_path()
             self.__create_app_settings()
 
-        enable = askyesno("Balaclava#1912", "Deseja habilitar as permissões?")
+        enable = askyesno(
+            "Balaclava#1912",
+            "Sim: ativa o modo somente leitura \n"
+            "Não: desativa o modo somente leitura"
+        )
         self.__change_permission(enable)
 
     def __get_league_path(self) -> str:

@@ -116,7 +116,7 @@ class ReadOnly:
     def __change_permission(self, enable: bool) -> None:
         """Muda as permissões de escrita dos arquivos de configuração do lol."""
         league_config_files = ("PersistedSettings.json", "LCULocalPreferences.yaml", "ItemSets.json", "game.cfg")
-        permission = S_IWUSR if enable else S_IREAD
+        permission = S_IREAD if enable else S_IWUSR
 
         for filename in league_config_files:
             file_path = f"{self.league_config_path}/{filename}"
